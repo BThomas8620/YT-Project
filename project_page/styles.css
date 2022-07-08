@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+/* GLobal */
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.button_1{
+    height: 38px;
+    background: #e8491D;
+    border: 0;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+/* Header */
+header{
+    background: #35424A;
+    color:#ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+
+}
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+float:left;
+}
+header #branding h1{
+     margin:0;
+}
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+header .highlight, header .current a{
+    color: #e8491D;
+    font-weight: bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+/* Showcase */
+
+#showcase{
+    min-height: 400px;
+    background-image: url("Gojo.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #090707;
+    
+}
+#showcase h1{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 55px;
+}
+#showcase p{
+    font-size: 20px;
+}
+/* Newsletter*/
+
+#newsletter{
+    padding: 15px;
+    background: #35424A;
+    color: #ffffff;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+/* Boxes */
+#boxes .box{
+    float:left;
+    text-align: left;
+    width: 29%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#boxes .box img{
+    width: 90px;
+    height:auto;    
+}
+/* Footer */
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    background: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+
